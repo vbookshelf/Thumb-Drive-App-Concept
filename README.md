@@ -72,7 +72,7 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 - Installation can be done offline
 - User double clicks a file to install and run
 - Entire app  can be shared on a thumb drive
-- Code is stored in this dataset and not on GitHub because GitHub has a file size limit
+- Code is stored in a Kaggle dataset and not on GitHub because GitHub has a file size limit
 
 ## System Requirements:
 
@@ -82,5 +82,26 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 - Free disk Space: 10 GB
 
 ## Installation Instructions
+
+```
+1. Unzip (if required) and place the MedAi-Console-v2.0 folder on your
+desktop.
+
+2. cd into MedAi-Console-v2.0-TDA folder:
+cd Desktop
+cd MedAi-Console-v2.0-TDA
+
+3. Paste this command into the terminal and press Enter:
+(This overwrites the file and changes the file permissions to make it executable.)
+
+cat start-mac-app.command > temp && mv temp start-mac-app.command && chmod +x start-mac-app.command
+
+4. Open the MedAi-Console-v2.0-TDA folder
+
+5. Double click this file: start-mac-app.command
+
+6. The app will install automatically and then open in your browser.
+
+```
 
 <br>
