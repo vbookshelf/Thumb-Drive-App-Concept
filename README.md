@@ -136,6 +136,6 @@ cat start-mac-app.command > temp && mv temp start-mac-app.command && chmod +x st
 
 ## Notes
 
-- I used Claude Sonnet 4.6 extensively during this process. The model was an excellent guide.<br>
+- I used Claude Sonnet 4.6 extensively during this process. It was an excellent guide.<br>
 https://claude.ai/chat/36b3691f-d841-4916-8176-a3547d8a34b3
 
