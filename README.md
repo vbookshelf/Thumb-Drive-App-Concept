@@ -74,7 +74,11 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 - Installation can be done offline
 - User double clicks a file to install and run
 - Entire app  can be shared on a thumb drive
-- Code is stored in a Kaggle dataset and not on GitHub because GitHub has a file size limit
+
+## Download from Kaggle
+
+The code is stored in a Kaggle dataset and not on GitHub because GitHub has a file size limit.
+XXXXX-XXXXX
 
 ## System Requirements:
 
