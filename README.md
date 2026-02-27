@@ -14,7 +14,11 @@ Project in progress...
 
 <br>
 
-Yes, I know this approach looks old-school. But it works effectively. Try it by downloading and installing the example app.
+## How this works
+
+1. Download the app folder from Kaggle
+2. Install the app with internet enabled. The model and all pyproject.toml depencies will be installed.
+3. To share the app with others simply share a copy of your project folder. All installed dependencies will travel with it. The person who uses your copy won't need internet to install it. They just need to double click the start-mac-app.command file. Ensure you've deleted your conversation history (conversations.json) and any images you've uploaded (persistent_uploads) before sharing the folder with others.
 
 <br>
 
