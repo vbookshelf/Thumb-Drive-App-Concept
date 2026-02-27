@@ -1,6 +1,12 @@
 # Thumb Drive App (TDA)
 
-A new way to deploy portable self-contained AI software in low resource settings. Bundle all binary executables, including Ollama, together with the app. Runs offline. Double-click a file to install.
+- A new way to deploy portable self-contained AI software in low resource settings.
+- Bundle all binary executables, including Ollama, together with the app.
+- Runs offline.
+- Double-click a file to install.
+- Runs in a virtual environment.
+
+<br>
 
 <img src="images/image1.jpeg" alt="App screenshot" height="500">
 
@@ -35,11 +41,11 @@ Yes, I know this approach looks old-school. But it works effectively. Try it by 
 
 ## Working Example - The Offline MedAi Console v2.0 TDA
 
-The MedAi Console is a transparent, offline-first and privacy-first multimodal AI console where clinicians can talk, type, show images, adjust parameters and create AI tools. Uses Flask for the backend, Whisper for Speech-to-Text (STT), Kokoro for Text-to-Speech (TTS), and Ollama to serve the Large Language Model (LLM). It's designed to run on Apple Silicon computers.
+The Offine MedAi Console is an AI collaborator for clinicians. It's a transparent, offline-first and privacy-first multimodal AI console where clinicians can talk, type, show images, adjust parameters and create AI tools. Uses Flask for the backend, Whisper for Speech-to-Text (STT), Kokoro for Text-to-Speech (TTS), and Ollama to serve the Large Language Model (LLM). It's designed to run on Apple Silicon computers.
 
 I originally built version 1 of this console as my entry for a Medical AI hackathon on Kaggle. I've converted version 2 into a Thumb-Drive app. All dependencies including Ollama and the MedGemma 4b BF16 model are bundled with the app. Total size is approximately 10.2 GB. No internet is needed for installation. The app can be shared using a thumb drive or via AirDrop.
 
-
+<br>
 
 ## Version 1.0
 
