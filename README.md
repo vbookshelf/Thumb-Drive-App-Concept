@@ -10,7 +10,7 @@ Project in progress...
 
 <br>
 
-<img src="images/image1.jpeg" alt="Infographic" width="500">
+<img src="images/image1.png" alt="Infographic" width="500">
 
 <br>
 
