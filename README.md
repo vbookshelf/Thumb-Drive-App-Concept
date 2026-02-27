@@ -39,6 +39,10 @@ Yes, I know this approach looks old-school. But it works effectively. Try it by 
 
 <br>
 
+<img src="images/image2.png" alt="App screenshot" height="500">
+
+<br>
+
 ## Working Example - The Offline MedAi Console v2.0 TDA
 
 The Offine MedAi Console is an AI collaborator for clinicians. It's a transparent, offline-first and privacy-first multimodal AI console where clinicians can talk, type, show images, adjust parameters and create AI tools. Uses Flask for the backend, Whisper for Speech-to-Text (STT), Kokoro for Text-to-Speech (TTS), and Ollama to serve the Large Language Model (LLM). It's designed to run on Apple Silicon computers.
