@@ -47,6 +47,10 @@ I originally built version 1 of this console as my entry for a Medical AI hackat
 
 <br>
 
+<img src="https://github.com/vbookshelf/Offline-MedAi-Console/blob/main/images/image2.png" alt="App screenshot" height="500">
+
+<br>
+
 ## Version 1.0
 
 YouTube Video - Demo<br>
