@@ -8,7 +8,7 @@
 - Runs in a virtual environment so other software on the user's computer is not disturbed.
 - User conversation history and all uploaded images are encrypted.
 - Runs completely offline.
-- A working AI app demo is available. See info below.
+
 
 <br>
 
