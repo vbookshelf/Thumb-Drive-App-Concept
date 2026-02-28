@@ -4,7 +4,7 @@
 - Bundles the AI model and all binary executables, including Ollama, together with the app.
 - Only the first install requires an internet connection.
 - Copies of the installed app can be shared. All dependencies travel with the copy.
-- Double click a file to install.
+- Double-click to install.
 - Runs in a virtual environment so other software on the user's computer is not disturbed.
 - User conversation history and all uploaded images are encrypted.
 - Runs completely offline.
