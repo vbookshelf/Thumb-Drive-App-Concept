@@ -1,12 +1,13 @@
-Project in progress...
-
 # Thumb Drive App (TDA)
 
 - A method to deploy portable self-contained AI software in low resource settings.
-- Bundle the AI model and all binary executables, including Ollama, together with the app.
-- Runs offline.
-- Double-click a file to install.
-- Runs in a virtual environment.
+- Bundles the AI model and all binary executables, including Ollama, together with the app.
+- Only the first install requires an internet connection.
+- Copies of the installed app can be shared. All dependencies travel with the copy.
+- Double click a file to install.
+- Runs in a virtual environment so other software on the user's computer is not disturbed.
+- User conversation history and all uploaded images are encrypted.
+- Runs completely offline.
 
 <br>
 
@@ -16,10 +17,12 @@ Project in progress...
 
 ## How this works
 
-1. Download the app folder from Kaggle
-2. Install the app with internet enabled. The model and all pyproject.toml depencies will be installed.
-3. To share the app with others simply share a copy of your project folder. All installed dependencies will travel with it. The person who uses your copy won't need internet to install it. They just need to double click the start-mac-app.command file.<br>
-<strong>*** Please ensure you've deleted your conversation history (app/conversations.json) and any images you've uploaded (app/persistent_uploads) before sharing the folder with others.</strong>
+1. Download the app folder from Kaggle:<br>
+https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-drive-app
+
+3. Install the app with internet enabled. The MedGemma 4B BF16 model and all pyproject.toml dependencies will be auto downloaded and installed. Total size, after installation, is approximately 10.2 GB. 
+4. To share the app with others simply share a copy of your project folder. All the dependencies, downloaded during your installation, will travel with it. The person who uses your copy won't need  to download anything from the internet. They just need to double click the start-mac-app.command file to install the app.<br>
+5. Your conversation history and any images you upload are encrypted. However, please delete the storage_vault folder from the copy that you share. If you forget to do this it's not a problem. Because your data is encrypted no one else will be able to see it. Also, your data is tied to your computer. If the app detects your data on another device, it will auto delete that data.
 
 <br>
 
@@ -50,11 +53,11 @@ Project in progress...
 
 <br>
 
-## Working Example - The Offline MedAi Console v2.0 TDA
+## Working Example - The Offline MedAi Console v2.0
 
 The Offine MedAi Console is an AI collaborator for clinicians. It's a transparent, offline-first and privacy-first multimodal AI console where clinicians can talk, type, show images, adjust parameters and create AI tools. Uses Flask for the backend, Whisper for Speech-to-Text (STT), Kokoro for Text-to-Speech (TTS), and Ollama to serve the Large Language Model (LLM). It's designed to run on Apple Silicon computers.
 
-I originally built version 1 of this console as my entry for a Medical AI hackathon on Kaggle. I've converted version 2 into a Thumb-Drive app. All dependencies including Ollama and the MedGemma 4b BF16 model are bundled with the app. Total size is approximately 10.2 GB. No internet is needed for installation. The app can be shared using a thumb drive or via AirDrop.
+I originally built version 1 of this console as my entry for a Medical AI hackathon on Kaggle. I've converted version 2 into a Thumb-Drive app.
 
 <br>
 
@@ -75,10 +78,8 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 
 ## Changes made in v2.0
 
-- All dependencies, including Ollama and the MegGemma model, have been bundled together (10 GB)
-- Installation can be done offline
-- User double clicks a file to install and run
-- Entire app  can be shared on a thumb drive
+- Converted app into a TDA
+- Added data encryption
 
 ## Download from Kaggle
 
