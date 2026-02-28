@@ -128,13 +128,13 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 
 ### 1. If you downloaded the app from Kaggle:
 
-a. Unzip and place the MedAi-Console-v2.0-TDA-Encrypt folder on your
+a. Unzip and place the MedAi-Console-v2.0-TDA folder on your
 desktop.
 
-b. cd into MedAi-Console-v2.0-TDA-Encrypt folder:
+b. cd into MedAi-Console-v2.0-TDA folder:
 ```
 cd Desktop
-cd MedAi-Console-v2.0-TDA-Encrypt
+cd MedAi-Console-v2.0-TDA
 ```
 
 c. Paste this command into the terminal and press Enter:
@@ -143,11 +143,12 @@ c. Paste this command into the terminal and press Enter:
 cat start-mac-app.command &gt; temp && mv temp start-mac-app.command && chmod +x start-mac-app.command
 ```
 
-d. Open the MedAi-Console-v2.0-TDA-Encrypt folder
+d. Open the MedAi-Console-v2.0-TDA folder
 
 e. Double click this file: ```start-mac-app.command```
 
 f. The app will install automatically and then open in your browser.
+Please note that during this step approximately 10 GB will be downloaded. You will need a fast and stable internet connection.
 
 ### 2. If you received a copy that someone already installed:
 
