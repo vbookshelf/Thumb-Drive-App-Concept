@@ -1,7 +1,6 @@
 # Thumb-Drive App (TDA)
-### Portable self-contained AI software for places where there's no internet.
 
-- A method to deploy portable self-contained AI software in low resource settings.
+- A method to deploy portable self-contained AI software in places where there's no internet.
 - Bundles the AI model and all binary executables, including Ollama, together with the app.
 - Only the first install requires an internet connection.
 - Copies of the installed app can be shared. All dependencies travel with the copy.
