@@ -83,8 +83,8 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 
 ## Download from Kaggle
 
-The code is stored in a Kaggle dataset and not on GitHub because GitHub has a file size limit.
-XXXXX-XXXXX
+The code is stored in a Kaggle dataset and not on GitHub because GitHub has a file size limit.<br>
+https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-drive-app/data
 
 ## Bundled package
 
@@ -113,35 +113,40 @@ XXXXX-XXXXX
 - Operating System: MacOS
 - Computer: Apple Silicon Mac (M Series)
 - RAM: 16GB
-- Free disk Space: 10 GB
+- Free disk Space: 10.2 GB
 
 ## Installation Instructions
 
-```
-1. Unzip (if required) and place the MedAi-Console-v2.0 folder on your
+### 1. If you downloaded the app from Kaggle:
+
+a. Unzip (if required) and place the MedAi-Console-v2.0-TDA-Encrypt folder on your
 desktop.
 
-2. cd into MedAi-Console-v2.0-TDA folder:
-cd Desktop
-cd MedAi-Console-v2.0-TDA
-
-3. Paste this command into the terminal and press Enter:
-(This overwrites the file and changes the file permissions to make it executable.)
-
-cat start-mac-app.command > temp && mv temp start-mac-app.command && chmod +x start-mac-app.command
-
-4. Open the MedAi-Console-v2.0-TDA folder
-
-5. Double click this file: start-mac-app.command
-
-6. The app will install automatically and then open in your browser.
-
+b. cd into MedAi-Console-v2.0-TDA-Encrypt folder:
 ```
+cd Desktop
+cd MedAi-Console-v2.0-TDA-Encrypt
+```
+
+c. Paste this command into the terminal and press Enter:
+(This overwrites the file and changes the file permissions to make it executable.)
+```
+cat start-mac-app.command &gt; temp && mv temp start-mac-app.command && chmod +x start-mac-app.command
+```
+
+d. Open the MedAi-Console-v2.0-TDA-Encrypt folder
+
+e. Double click this file: ```start-mac-app.command```
+
+f. The app will install automatically and then open in your browser.
+
+### 2. If you received a copy that someone already installed:
+
+a. Double click this file: ```start-mac-app.command```
+
+b. The app will install automatically and then open in your browser.
+
 
 <br>
 
-## Notes
-
-- I used Claude Sonnet 4.6 extensively during this process. It was an excellent guide.<br>
-https://claude.ai/chat/36b3691f-d841-4916-8176-a3547d8a34b3
 
