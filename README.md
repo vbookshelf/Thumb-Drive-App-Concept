@@ -1,14 +1,15 @@
 # Thumb-Drive App (TDA)
 ### AI on a stick - for places where there's no internet.
 
-- A method to deploy portable self-contained AI software in places where there's no internet.
-- Bundles the AI model and all binary executables, including Ollama, together with the app.
+- A method to deploy portable self-contained AI apps in places where there's no internet.
+- Bundles the AI model and all binary executables together with the app - including Ollama.
 - Only the first install requires an internet connection.
-- Copies of the installed app can be shared. All dependencies travel with the copy.
+- Copies of the installed app can be shared using a thumb-drive or AirDrop. All dependencies travel with the copy.
 - Double-click to install.
-- Runs in a virtual environment so other software on the user's computer is not disturbed.
-- User conversation history and all uploaded images are encrypted.
 - Runs completely offline.
+- Runs in a virtual environment so other software on the user's computer is not disturbed.
+- User data is encrypted.
+
 
 
 <br>
