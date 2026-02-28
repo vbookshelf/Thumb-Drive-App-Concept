@@ -81,10 +81,10 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 - Converted app into a TDA
 - Added data encryption
 
-## Download from Kaggle
+## Download the demo app from Kaggle
 
-The code is stored in a Kaggle dataset and not on GitHub because GitHub has a file size limit.<br>
-https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-drive-app/data
+The demo is stored in a Kaggle dataset and not here because GitHub has a file size limit.<br>
+https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-drive-app
 
 ## Bundled package
 
