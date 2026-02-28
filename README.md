@@ -157,6 +157,12 @@ a. Double click this file: ```start-mac-app.command```
 
 b. The app will install automatically and then open in your browser.
 
+### How to shut down the app
+
+The app does not stop running when you close the browser tab.
+To shut down the app, close the terminal window.
+You can also close the terminal by selecting it and typing Ctrl+C.
+
 
 <br>
 
