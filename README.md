@@ -51,11 +51,9 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 
 ## Solution - The Thumb-Drive App
 
-- Ollama, the Models and all dependencies are downloaded together
-- Installation doesn't require an internet connection
-- Double-click a file to install and run
-- App runs completely offline
-- Entire app can be shared on a thumb-drive or via AirDrop
+- Ollama, the Models and all dependencies are bundled together
+- An installed app can be shared by simply making a copy of the project folder.
+- A user who receives a copy doesn't need an internet connection to use the app.
 
 <br>
 
