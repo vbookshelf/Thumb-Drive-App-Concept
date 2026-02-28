@@ -166,6 +166,4 @@ You can also close the terminal by selecting it and typing Ctrl+C.
 
 <br>
 
-The TDA is a "zero-trust, zero-cloud" solution. It transforms a complex AI stack into a "double-click" experience that is both accessible to non-technical users and secure enough for sensitive environments. It's designed for places where internet connectivity is a luxury.
 
-<br>
