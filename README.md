@@ -18,13 +18,6 @@
 
 <br>
 
-## Demo App
-
-The Offline MedAi Console v2.0 TDA<br>
-https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-drive-app
-
-<br>
-
 ## How this works
 
 1. Download the app folder from Kaggle:<br>
