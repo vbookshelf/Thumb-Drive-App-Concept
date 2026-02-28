@@ -1,4 +1,5 @@
 # Thumb-Drive App (TDA)
+### AI on a stick.
 
 - A method to deploy portable self-contained AI software in places where there's no internet.
 - Bundles the AI model and all binary executables, including Ollama, together with the app.
