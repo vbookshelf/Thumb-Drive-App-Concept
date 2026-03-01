@@ -191,7 +191,7 @@ Because the vault is machine-bound, anyone who receives a copy of the app folder
 
 <br>
 
-## How to apply this approach to your own offline AI app
+## How to apply the TDA approach to your own offline AI app
 
 To convert your AI app to a TDA, I suggest that you collaborate with Claude 4.6 Sonnet. It's free.<br>
 You need to clearly state your goal and give the AI as much context as possible.
