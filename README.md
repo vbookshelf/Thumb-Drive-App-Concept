@@ -146,7 +146,7 @@ Please note that during this step approximately 10 GB will be downloaded. You wi
 
 ### 2. If you received a copy that someone already installed:
 
-a. Move the folder to your desktop. If your external drive that is an SSD, you don't need to move the folder to your computer. The app can run on the SSD.
+a. Move the folder to your desktop. If your external drive is an SSD, you don't need to move the folder to your computer. The app can run on the SSD.
 
 b. Double click this file: ```start-mac-app.command```
 
