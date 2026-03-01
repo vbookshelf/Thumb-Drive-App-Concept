@@ -93,7 +93,7 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 
 - UV
 - Ollama
-- ffmeg
+- ffmpeg
 - kokoro-v1.0.onnx
 - voices-v1.0.bin
 - hf.co/unsloth/medgemma-4b-it-GGUF:BF16
