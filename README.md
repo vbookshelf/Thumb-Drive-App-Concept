@@ -146,9 +146,11 @@ Please note that during this step approximately 10 GB will be downloaded. You wi
 
 ### 2. If you received a copy that someone already installed:
 
-a. Double click this file: ```start-mac-app.command```
+a. Move the folder to your desktop. If your external drive that is an SSD, you don't need to move the folder to your computer. The app can run on the SSD.
 
-b. The app will install automatically and then open in your browser.
+b. Double click this file: ```start-mac-app.command```
+
+c. The app will install automatically and then open in your browser.
 
 ### How to shut down the app
 
