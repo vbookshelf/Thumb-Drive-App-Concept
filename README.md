@@ -9,7 +9,7 @@
 - Runs completely offline.
 - Can be run on an external SSD.
 - Runs in a virtual environment so other software on the user's computer is not disturbed.
-- User data is encrypted.
+- User data is encrypted. Protects against accidental data leaks.
 
 
 
