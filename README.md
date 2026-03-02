@@ -52,7 +52,7 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 
 <br>
 
-<img src="images/image2.png" alt="App screenshot" height="500">
+<img src="images/image2.png" alt="Doctor working on laptop." height="500">
 
 <br>
 
