@@ -210,7 +210,7 @@ In exchange for the minor inconvenience of typing one command into the terminal,
 
 ## Rough Notes
 
-- Currently the app opens in the user's default browser. The app still looks like a web app. But, by using pywebview it's possible to give a flask app the look and feel of a native macOS app. No packaging needed. The code remains completely transparent and auditable.<br>
+- Currently the app opens in the user's default browser. The app still looks like a web app. But, by using pywebview it's possible to give a flask app the look and feel of a native macOS app. No packaging needed. The code remains completely transparent and auditable. Also, the app will shut down when the user closes the app window - currently the terminal must be shut down in order to stop the app.<br>
 https://github.com/r0x0r/pywebview
 
 - The terminal window can be collapsed or hidden by adding one of these lines to the start-mac-app.command file:<br>
