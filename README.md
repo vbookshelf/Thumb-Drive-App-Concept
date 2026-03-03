@@ -211,7 +211,9 @@ In exchange for the minor inconvenience of typing one command into the terminal,
 ## Rough Notes
 
 - Currently the app opens in the user's default browser. The app still looks like a web app. But, by using pywebview it's possible to give a flask app the look and feel of a native macOS app. No packaging needed. The code remains completely transparent and auditable. Also, the app will shut down when the user closes the app window - currently the terminal must be shut down in order to stop the app.<br>
-https://github.com/r0x0r/pywebview
+https://github.com/r0x0r/pywebview<br>
+This is an example TDA translation app that uses TranslateGemma 12b 4-bit:
+<img src="https://github.com/vbookshelf/Takkie-Translate-Offline/blob/main/images/image2.png" alt="macOS translation app" height="400">
 
 - The terminal window can be collapsed or hidden by adding one of these lines to the start-mac-app.command file:<br>
 Minimise the terminal window to the dock:<br>
