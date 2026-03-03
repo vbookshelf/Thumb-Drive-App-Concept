@@ -208,4 +208,38 @@ In exchange for the minor inconvenience of typing one command into the terminal,
 
 <br>
 
+## Rough Notes
 
+- Currently the app opens in the user's default browser. The app still looks like a web app. But, by using pywebview it's possible to give a flask app the look and feel of a native macOS app. No packaging needed. The code remains completely transparent and auditable.<br>
+https://github.com/r0x0r/pywebview
+
+- The terminal window can be collapsed or hidden by adding one of these lines to the start-mac-app.command file:<br>
+Minimise the terminal window to the dock:<br>
+```osascript -e 'tell application "Terminal" to set miniaturized of window 1 to true'```<br>
+Hides the terminal window:<br>
+```osascript -e 'tell application "System Events" to set visible of process "Terminal" to false'```
+
+- It's import to modify the start-mac-app.command file so the code waits for Ollama to be ready before the app launches:<br>
+```
+# Wait for Ollama to be ready
+echo "[INFO] Waiting for Ollama to be ready..."
+MAX_WAIT=30
+COUNT=0
+until curl -s "http://127.0.0.1:11436" > /dev/null 2>&1; do
+    if [ $COUNT -ge $MAX_WAIT ]; then
+        echo "[ERROR] Ollama did not start within ${MAX_WAIT} seconds."
+        echo "This may be caused by a port conflict on 11436 or insufficient system resources."
+        exit 1
+    fi
+    # Check if Ollama process died unexpectedly before the timeout
+    if ! kill -0 "$OLLAMA_PID" 2>/dev/null; then
+        echo "[ERROR] Ollama process exited unexpectedly. Check that the binary is not corrupted."
+        exit 1
+    fi
+    sleep 1
+    COUNT=$((COUNT + 1))
+done
+echo "[INFO] Ollama is ready."
+```
+
+<br>
