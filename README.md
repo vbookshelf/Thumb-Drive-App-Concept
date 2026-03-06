@@ -245,6 +245,6 @@ done
 echo "[INFO] Ollama is ready."
 ```
 
-- When using voice input and output with pywebview, audio input and output quality and robustness is not as good as when using Chrome.
+- When using voice input and output with Safari, audio input and output quality and robustness is not as good as when using Chrome. On Mac, pywebview is using the Safari engine, therefore input and output audio quality also varies.
   
 <br>
