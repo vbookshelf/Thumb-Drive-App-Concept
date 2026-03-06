@@ -245,4 +245,6 @@ done
 echo "[INFO] Ollama is ready."
 ```
 
+- When using voice input and output with pywebview, audio input and output quality and robustness is not as good as when using Chrome.
+  
 <br>
