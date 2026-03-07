@@ -1,5 +1,5 @@
 # Thumb-Drive App (TDA)
-### Share the power of AI in places where there's no internet.
+### Bring the power of AI to places where there's no internet.
 
 <br>
 
