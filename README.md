@@ -3,6 +3,11 @@
 
 <br>
 
+<img src="images/image2.png" alt="Doctor working on laptop." height="400">
+
+
+<br>
+
 - A portable folder-based AI app that doesn’t need system wide installation. 
 - All dependencies  are bundled - including Ollama and the model. 
 - Share using AirDrop or a thumb-drive. 
@@ -49,11 +54,7 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 - An installed app can be shared by simply making a copy of the project folder.
 - A user who receives a copy doesn't need an internet connection to use the app.
 
-<br>
 
-<img src="images/image2.png" alt="Doctor working on laptop." height="500">
-
-<br>
 
 ## Working Example - The Offline MedAi Console v2.0
 
