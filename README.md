@@ -254,6 +254,6 @@ https://huggingface.co/datasets/vbookshelf/Offline-MedAi-Console-TDA
 
 - HuggingFace could become an app store for free self-contained open source offline AI apps. The infrastructure already exists as HuggingFace Datasets.
 
-- The Python interpreter also needs to be included in the bundle for the TDA to truly operate offline.
+- The Python interpreter and the wheels for all packages, also need to be included in the bundle for the TDA to truly operate offline.
   
 <br>
