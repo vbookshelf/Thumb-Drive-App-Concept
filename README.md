@@ -252,7 +252,8 @@ https://huggingface.co/datasets/vbookshelf/Offline-MedAi-Console-TDA
 
 - The code in the start-mac-app.command file is currently set up to be self healing i.e. if any dependencies are missing (e.g. the model), it downloads those missing dependencies automatically during startup. This code should be modified to be able to toggle self healing on and off. In this way the user won't be surprised by an unexpected download. Having the self healing feature makes the app very easy to package therefore, it should not be completely removed.
 
-- HuggingFace could become an app store for free self-contained open source offline AI apps. The infrastructure already exists as HuggingFace Datasets. This is what a portfolio of apps would look like:<br>
-https://huggingface.co/vbookshelf
+- HuggingFace could become an app store for free self-contained open source offline AI apps. The infrastructure already exists as HuggingFace Datasets.
+
+- The Python interpreter also needs to be included in the bundle for the TDA to truly operate offline.
   
 <br>
