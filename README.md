@@ -256,4 +256,9 @@ https://huggingface.co/datasets/vbookshelf/Offline-MedAi-Console-TDA
 
 - The Python interpreter and the wheels for all packages, also need to be included in the bundle for the TDA to truly operate offline.
   
+- Instead of using pip to download wheels and storing them locally, a more elegant solution is to make a copy of the uv cache. The cache is platform/arch-specific. The cache directory structure is uv's internal format and could theoretically change between uv versions. This app uses a bundled uv version so that issue is not a problem.
+```
+uv sync --cache-dir ./my-bundled-cache
+```
+  
 <br>
