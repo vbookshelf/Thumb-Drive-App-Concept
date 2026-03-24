@@ -63,6 +63,13 @@ Huggingface Datasets is used as an app store where TDAs can be stored and easily
 HuggingFace:<br>
 https://huggingface.co/datasets/vbookshelf/Ai-On-A-Stick-TDA
 
+System Requirements:
+
+- Operating System: MacOS
+- Computer: Apple Silicon Mac (M1, M2, M3, M4)
+- RAM: 16GB
+- Free disk Space: 9.2 GB
+
 Click this link to auto download (8.1 GB). Installation instructions are included in the project folder:<br>
 https://huggingface.co/datasets/vbookshelf/Ai-On-A-Stick-TDA/resolve/main/AI-On-A-Stick-v3.0-TDA.zip?download=true
 
