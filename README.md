@@ -63,7 +63,7 @@ Huggingface Datasets is used as an app store where TDAs can be stored and easily
 HuggingFace:<br>
 https://huggingface.co/datasets/vbookshelf/Ai-On-A-Stick-TDA
 
-Click this link to auto download. Installation instructions are included in the project folder:<br>
+Click this link to auto download (7.5 GB). Installation instructions are included in the project folder:<br>
 https://huggingface.co/datasets/vbookshelf/Ai-On-A-Stick-TDA/resolve/main/AI-On-A-Stick-v3.0-TDA.zip?download=true
 
 <br>
