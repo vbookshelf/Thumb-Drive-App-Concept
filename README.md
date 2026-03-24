@@ -27,10 +27,9 @@
 
 The entire Python packaging ecosystem — pip, conda, uv, pyproject.toml, requirements.txt — is architected around the assumption that software needs to be updated. Version ranges, dependency resolution, compatibility matrices — this complexity exists to answer the question: "How do we keep this working as things change?"
 
-But the TDA concept is asking a different question: "How do we make this work perfectly, right now, forever?"<br>
-The goal is to freeze the environment. 
+But the TDA concept is asking a different question: "How do we make this work perfectly, right now, forever?" 
 
-Researchers and students don't need the latest version of pandas — they need the version that was working yesterday to still work tomorrow. 
+The goal is to freeze the environment. Researchers and students don't need the latest version of pandas — they need the version that was working yesterday to still work tomorrow. 
 
 <br>
 
