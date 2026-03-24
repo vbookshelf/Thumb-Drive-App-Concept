@@ -1,5 +1,6 @@
 # Thumb-Drive App (TDA)
-### Bring the power of AI to places where there's no internet.
+- Brings the power of AI to places where there's no internet.
+- Creates reliable and reproducible computational environments for researchers and students.
 
 <br>
 
