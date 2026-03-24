@@ -29,7 +29,7 @@ The entire Python packaging ecosystem — pip, conda, uv, pyproject.toml, requir
 
 But the TDA concept is asking a different question: "How do we make this work perfectly, right now, forever?" 
 
-The goal is to freeze the environment. Researchers and students don't need the latest version of pandas — they need the version that was working yesterday to still work tomorrow. 
+The goal is to freeze the environment. Researchers and students don't need the latest version of pandas — they need the version that worked yesterday to still work tomorrow. 
 
 <br>
 
