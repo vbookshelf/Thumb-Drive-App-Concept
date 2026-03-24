@@ -52,7 +52,7 @@ Researchers and students don't need the latest version of pandas — they need t
 
 ## Solution - The Thumb-Drive App
 
-- Ollama, the Models and all dependencies are bundled together
+- Ollama, the Models, the Python interpreter, the uv binary and the wheels for all dependencies are bundled together.
 - An installed app can be shared by simply making a copy of the project folder.
 - A user who receives a copy doesn't need an internet connection to use the app.
 
@@ -60,7 +60,7 @@ Researchers and students don't need the latest version of pandas — they need t
 
 ## Working Example - Ai-On-A-Stick v3.0
 
-Huggingface Datasets is used as an app store where TDAs can be stored and easily distributed. All files are hashed. This enables the traceability that compliance audits require.
+Huggingface Datasets is used as an app store where TDAs can be stored and easily distributed. All files are hashed. This enables the traceability.
 
 HuggingFace:<br>
 https://huggingface.co/datasets/vbookshelf/Ai-On-A-Stick-TDA
