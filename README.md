@@ -24,6 +24,14 @@
 
 <br>
 
+The entire Python packaging ecosystem — pip, conda, uv, pyproject.toml, requirements.txt — is architected around the assumption that software needs to be updated. Version ranges, dependency resolution, compatibility matrices — all of that complexity exists to answer the question "how do we keep this working as things change?"
+
+But the TDA concept is asking a completely different question: "how do we make this work perfectly, right now, forever?" Freezing is the goal, not an afterthought.
+
+Researchers and students don't need the latest version of pandas — they need the version that was working yesterday to still work tomorrow. 
+
+<br>
+
 ## How this works
 
 1. Download the app folder from Kaggle:<br>
@@ -261,5 +269,5 @@ https://huggingface.co/datasets/vbookshelf/Offline-MedAi-Console-TDA
 ```
 uv sync --cache-dir ./my-bundled-cache
 ```
-  
+
 <br>
