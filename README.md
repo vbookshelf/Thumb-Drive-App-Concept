@@ -10,7 +10,7 @@
 <br>
 
 - A portable folder-based AI app that doesn’t need system wide installation. 
-- All dependencies  are bundled - including Ollama, the model, the Python interpreter and the wheels for all Python packages.
+- All dependencies  are bundled - including Ollama, the model, the Python interpreter, the uv binary and the wheels for all Python packages.
 - Sensitive user data can be encrypted locally.
 - Share using AirDrop or a thumb-drive. 
 - All dependencies travel with the copy. 
