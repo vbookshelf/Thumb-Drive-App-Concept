@@ -76,9 +76,16 @@ https://huggingface.co/datasets/vbookshelf/Ai-On-A-Stick-TDA/resolve/main/AI-On-
 
 <br>
 
+## More examples
+
+More examples of TDA apps and packaged computational environments are available on HuggingFace:<br>
+https://huggingface.co/vbookshelf
+
+<br>
+
 ## Data Encryption Strategy
 
-All patient data — conversation history and uploaded files (images, PDFs, DICOM files) — is encrypted at rest inside a local storage_vault folder. No plaintext patient data is ever written to disk.
+All sensitive data — conversation history and uploaded files (images, PDFs, DICOM files) — is encrypted at rest inside a local storage_vault folder. No plaintext patient data is ever written to disk.
 
 ### How it works:
 
