@@ -19,6 +19,7 @@
 - Runs completely offline.
 - Can be run on an external SSD.
 - Ideal for use with a Silicon Mac.
+- HuggingFace Datasets is used as an app store for free TDA storage and distribution.
 
 <br>
 
