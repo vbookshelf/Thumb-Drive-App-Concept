@@ -30,7 +30,7 @@ The entire Python packaging ecosystem — pip, conda, uv, pyproject.toml, requir
 
 But the TDA concept asks a different question: "How do we make this work reliably, offline?" 
 
-The goal is to freeze the environment. Researchers, students, medical workers in remote areas don't need the latest version of anything — they need the version that worked yesterday to still work tomorrow.
+The goal is to freeze the environment. The version that worked yesterday will still work tomorrow.
 
 <br>
 
