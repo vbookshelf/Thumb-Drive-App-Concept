@@ -131,4 +131,7 @@ In exchange for the minor inconvenience of typing one command into the terminal,
 
 <br>
 
+## Notes
+- Even tho the Python environment is frozen, the macOS Kernel isn't. Major OS shifts (e.g., moving from macOS 15 to 16) could theoretically break the Python binary or ioreg access.
 
+<br>
