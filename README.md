@@ -1,6 +1,7 @@
 # Thumb-Drive App (TDA)
 - A portable folder-based AI app that doesn’t need system wide installation. 
 - All dependencies  are bundled - including Ollama, the model, the Python interpreter, the uv binary and the wheels for all Python packages.
+- Double-click to set up and launch.
 - Brings the power of AI to places where there's no internet.
 - Creates reliable and reproducible computational environments for researchers and students.
 
@@ -15,7 +16,6 @@
 - Sensitive user data can be encrypted locally.
 - Share using AirDrop or a thumb-drive. 
 - All dependencies travel with the copy. 
-- Double-click to set up and launch.
 - Runs completely offline.
 - Can be run on an external SSD.
 - Ideal for use with a Silicon Mac.
