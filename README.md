@@ -1,4 +1,6 @@
 # Thumb-Drive App (TDA)
+Plug-and-play AI for macOS.
+
 - A portable folder-based AI app that doesn’t need system wide installation. 
 - All dependencies  are bundled - including Ollama, the model, the Python interpreter, the uv binary and the wheels for all Python packages.
 - Double-click to set up and launch.
