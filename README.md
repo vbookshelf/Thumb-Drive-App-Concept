@@ -55,7 +55,7 @@ Plug-and-play AI for macOS.
 
 ## Working Example - Ai-On-A-Stick v3.0
 
-Huggingface Datasets is used as an app store where TDAs can be stored and easily distributed. All files are hashed. This enables traceability. If a researcher uses the Ai-On-A-Stick-v3.0-TDA, they can cite that specific hash. This ensures that anyone else can download the exact same environment years later.
+Huggingface Datasets is used as an app store where TDAs can be stored and easily distributed. All files are hashed. This enables traceability.
 
 HuggingFace:<br>
 https://huggingface.co/datasets/vbookshelf/Ai-On-A-Stick-TDA
