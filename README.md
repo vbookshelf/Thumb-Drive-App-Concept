@@ -22,6 +22,7 @@ Plug-and-play AI for macOS.
 - Can be run on an external SSD.
 - Ideal for use with a Silicon Mac.
 - HuggingFace Datasets is used as an app store for free TDA storage and distribution.
+- Enables the compliance and traceability required for offline AI to be used in demanding regulatory environments.
 
 <br>
 
