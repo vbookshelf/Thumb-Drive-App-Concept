@@ -82,7 +82,7 @@ https://huggingface.co/vbookshelf
 
 ## Data Encryption Strategy
 
-All sensitive data — conversation history and uploaded files (images, PDFs, DICOM files) — is encrypted at rest inside a local storage_vault folder. No plaintext patient data is ever written to disk.
+All sensitive data — conversation history and uploaded files (images, PDFs, DICOM files) — is encrypted at rest inside a local storage_vault folder. No plaintext data is ever written to disk.
 
 ### How it works:
 
@@ -90,7 +90,7 @@ The encryption key is derived from the Mac's hardware UUID, a unique identifier 
 
 ### Machine binding via sentinel file:
 
-The first time the app runs, it encrypts a known constant (VAULT_OK) and writes it to storage_vault/sentinel.bin. On every subsequent startup, the app attempts to decrypt the sentinel using the current machine's hardware UUID. If decryption succeeds, the vault is verified and the app starts normally. If decryption fails — meaning the vault folder has been moved to a different computer — the app immediately deletes the entire vault and exits with a security warning. Your data cannot be read on any machine other than the one that created it.
+The first time the app runs, it encrypts a known constant (VAULT_OK) and writes it to storage_vault/sentinel.bin. On every subsequent startup, the app attempts to decrypt the sentinel using the current machine's hardware UUID. If decryption succeeds, the vault is verified and the app starts normally. If decryption fails — meaning the vault folder has been moved to a different computer — the app immediately deletes the entire vault and then creates a new one. Your data cannot be read on any machine other than the one that created it.
 
 ### What is encrypted:
 
@@ -99,7 +99,7 @@ The first time the app runs, it encrypts a known constant (VAULT_OK) and writes 
 
 ### When sharing a copy of the app:
 
-Because the vault is machine-bound, anyone who receives a copy of the app folder cannot decrypt the original user's data even if they forget to delete the storage_vault folder before sharing. As an additional precaution, it's still good practice to delete storage_vault before sharing, since the encrypted files represent patient data and should not travel beyond the original device.
+Because the vault is machine-bound, anyone who receives a copy of the app folder cannot decrypt the original user's data even if they forget to delete the storage_vault folder before sharing. As an additional precaution, it's still good practice to delete storage_vault before sharing.
 
 ### Limitations to be aware of:
 
